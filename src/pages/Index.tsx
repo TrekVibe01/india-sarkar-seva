@@ -2,6 +2,7 @@
 import Hero from "@/components/home/Hero";
 import PopularServices from "@/components/home/PopularServices";
 import StateSelector from "@/components/home/StateSelector";
+import HowToAccess from "@/components/home/HowToAccess";
 
 const Index = () => {
   return (
@@ -9,6 +10,7 @@ const Index = () => {
       <Hero />
       <PopularServices />
       <StateSelector />
+      <HowToAccess />
     </div>
   );
 };
