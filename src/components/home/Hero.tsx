@@ -1,0 +1,35 @@
+
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Search } from "lucide-react";
+
+const Hero = () => {
+  return (
+    <div className="bg-muted">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+        <h1 className="text-4xl md:text-5xl font-bold text-primary tracking-tight">
+          One Nation, One Portal
+        </h1>
+        <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-muted-foreground">
+          Your single point of access for all central and state government services.
+          Search for any service you need.
+        </p>
+        <div className="mt-8 max-w-xl mx-auto flex items-center space-x-2">
+          <div className="relative flex-grow">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
+            <Input
+              type="search"
+              placeholder="e.g., 'PAN Card', 'Aadhaar Update', 'Passport Application'"
+              className="pl-10 w-full"
+            />
+          </div>
+          <Button type="submit" className="bg-primary hover:bg-primary/90">
+            Search
+          </Button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Hero;
