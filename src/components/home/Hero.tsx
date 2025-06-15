@@ -21,7 +21,7 @@ const Hero = ({ searchQuery, setSearchQuery }: HeroProps) => {
   return (
     <div
       className="relative bg-cover bg-center"
-      style={{ backgroundImage: "url('https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80')" }}
+      style={{ backgroundImage: "url('/lovable-uploads/eae59b91-315f-4a89-8dad-133985bc58e8.png')" }}
     >
       <div className="absolute inset-0 bg-black/60 z-0" />
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
