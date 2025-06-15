@@ -60,7 +60,7 @@ export const serviceCategories = [
     services: [
       { name: 'Income Tax e-Filing', description: 'ITR Filing, Refund Status, TDS', icon: FileCheck, url: 'https://www.incometax.gov.in/iec/foportal/' },
       { name: 'GST Services', description: 'GST Registration, Return Filing', icon: FileCheck, url: 'https://www.gst.gov.in/' },
-      { name: 'Electricity Bill Payment', description: 'Varies by state (e.g., UPPCL)', icon: Lightbulb, url: 'https://services.india.gov.in/service/listing?cat_id=5&ln=en' },
+      { name: 'Electricity Bill Payment', description: 'Varies by state (e.g., UPPCL)', icon: Lightbulb, url: 'https://wss.mahadiscom.in/wss/wss?uiActionName=getViewPayBill' },
       { name: 'Water Bill Payment', description: 'Varies by Municipal Corporation', icon: Home, url: 'https://services.india.gov.in/service/listing?cat_id=10&ln=en' },
     ],
   },
