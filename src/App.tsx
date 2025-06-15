@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
+import Chatbot from "./components/chatbot/Chatbot";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +27,7 @@ const App = () => (
             </Routes>
           </main>
           <Footer />
+          <Chatbot />
         </div>
       </BrowserRouter>
     </TooltipProvider>
