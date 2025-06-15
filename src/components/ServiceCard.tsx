@@ -13,7 +13,7 @@ interface ServiceCardProps {
 const ServiceCard = ({ name, icon: Icon, url, description }: ServiceCardProps) => {
   return (
     <a href={url} target="_blank" rel="noopener noreferrer" className="block group h-full">
-      <Card className="h-full hover:border-primary transition-all duration-300 hover:shadow-lg flex flex-col justify-between">
+      <Card className="h-full group-hover:border-primary transition-all duration-300 group-hover:shadow-lg flex flex-col justify-between transform group-hover:-translate-y-1">
         <div>
           <CardHeader className="flex flex-row items-center justify-between pb-2">
             <CardTitle className="text-base font-medium">{name}</CardTitle>

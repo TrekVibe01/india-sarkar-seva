@@ -7,8 +7,8 @@ const Header = () => {
 
   const handleAuthClick = () => {
     toast({
-      title: "Feature Coming Soon!",
-      description: "User authentication requires a backend setup. We can enable this with the Supabase integration.",
+      title: "Demonstration Feature",
+      description: "In a full version, signing up would unlock personalized features. This is a conceptual portal and not an official government website.",
     });
   };
 

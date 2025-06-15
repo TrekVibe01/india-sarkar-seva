@@ -7,14 +7,14 @@ const Hero = () => {
   return (
     <div className="bg-muted">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold text-primary tracking-tight">
+        <h1 className="text-4xl md:text-5xl font-bold text-primary tracking-tight opacity-0 animate-fade-in" style={{ animationDelay: "0.2s" }}>
           One Nation, One Portal
         </h1>
-        <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-muted-foreground">
+        <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-muted-foreground opacity-0 animate-fade-in" style={{ animationDelay: "0.4s" }}>
           Your single point of access for all central and state government services.
           Search for any service you need.
         </p>
-        <div className="mt-8 max-w-xl mx-auto flex items-center space-x-2">
+        <div className="mt-8 max-w-xl mx-auto flex items-center space-x-2 opacity-0 animate-fade-in" style={{ animationDelay: "0.6s" }}>
           <div className="relative flex-grow">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
             <Input
