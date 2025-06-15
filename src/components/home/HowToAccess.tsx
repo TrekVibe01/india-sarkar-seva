@@ -1,9 +1,8 @@
-
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 
 const HowToAccess = () => {
   return (
-    <div className="bg-muted opacity-0 animate-fade-in" style={{ animationDelay: "0.9s" }}>
+    <div className="bg-muted opacity-0 animate-slide-up-fade-in" style={{ animationDelay: "0.9s" }}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight text-primary">
@@ -11,7 +10,7 @@ const HowToAccess = () => {
           </h2>
         </div>
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
-          <Card className="transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+          <Card className="transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:ring-2 hover:ring-primary/30">
             <CardHeader>
               <CardTitle>Online Access</CardTitle>
             </CardHeader>
@@ -23,7 +22,7 @@ const HowToAccess = () => {
               . You can also visit the individual service websites listed above.
             </CardContent>
           </Card>
-          <Card className="transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+          <Card className="transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:ring-2 hover:ring-primary/30">
             <CardHeader>
               <CardTitle>Offline Access</CardTitle>
             </CardHeader>
